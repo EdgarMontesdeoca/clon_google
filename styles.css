@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #202124;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #404245;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    margin-right: auto;
+    margin-left: 20px;
+}
+.profile-img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover; /* Esto hará que la imagen se ajuste dentro del contenedor sin distorsionarla */
+    border-radius: 50%;
+}
+.profile img {
+    border-radius: 50%;
+}
+
+.links {
+    margin-left: 1650px;
+}
+
+.links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto 20px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.logo {
+    margin: 20px auto;
+}
+
+.search-container {
+    display: inline-block;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.search-container input[type="text"] {
+    width: 450px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    float: left;
+    background-color: #404245;
+    color: #fff;
+}
+
+.search-container button {
+    background-color: #2c2d2e;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    outline: none;
+    float: right;
+}
+
+.search-container button:hover {
+    background-color: #333;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer .info {
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.github-link {
+    color: #15ff00; /* Puedes cambiar este valor al color que desees */
+    text-decoration: none; /* Esto quita el subrayado predeterminado del enlace */
+}
+.github-link:hover {
+    text-decoration: underline; /* Esto agrega un subrayado al pasar el ratón sobre el enlace */
+}
+# by edgarmnts
